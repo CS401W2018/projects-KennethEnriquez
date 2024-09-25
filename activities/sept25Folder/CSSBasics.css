@@ -4,3 +4,7 @@ p {
     font-weight: bold;
     font-size: smaller;
 }
+h1 {
+    color: rgb(139, 0, 93);
+    font-family: Arial, Helvetica, sans-serif;
+}
