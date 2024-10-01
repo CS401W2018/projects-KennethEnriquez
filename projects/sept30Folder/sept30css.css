@@ -1,6 +1,10 @@
 body {
     color:aliceblue;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
+    font-size:medium;
     background-color: rgb(151, 118, 69);
+}
+#AJ1{
+    color: rgb(124, 29, 29);
+    font-size: x-large;
 }
