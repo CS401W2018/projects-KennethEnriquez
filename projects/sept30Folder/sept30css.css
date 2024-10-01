@@ -4,7 +4,12 @@ body {
     font-size:medium;
     background-color: rgb(151, 118, 69);
 }
+
 #AJ1{
-    color: rgb(124, 29, 29);
+    color: rgb(67, 0, 100);
     font-size: x-large;
+}
+
+.AJ2{
+    color: rgb(127, 33, 148);
 }
