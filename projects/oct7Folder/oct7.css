@@ -9,6 +9,14 @@ nav a{
     color: rgb(8, 0, 255);
 }
 
+main {
+    font-size: large;
+    background-position: right;
+   background-image: url(design.jpg); 
+   background-repeat: no-repeat;
+    
+}
+
 .current{
     color: rgb(159, 25, 153);
 }
