@@ -11,10 +11,13 @@ nav a{
 
 main {
     font-size: large;
-    background-position: right;
+    
+}
+
+.norepeat{
+   background-position: right;
    background-image: url(design.jpg); 
    background-repeat: no-repeat;
-    
 }
 
 .current{
