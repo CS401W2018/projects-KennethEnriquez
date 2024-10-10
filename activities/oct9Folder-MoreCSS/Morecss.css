@@ -9,10 +9,8 @@ header {
     margin: 20px auto;
     text-align: center;
     border-radius: 10px;
-}
-
-header h1 {
     margin-bottom: 0;
+    padding: 20px;
 }
 
 nav {
@@ -22,6 +20,18 @@ nav {
     margin-top: 20px;
     border-radius: 5px;
     text-align: center;
+    
+}
+
+p {
+    background-color: rgb(252, 124, 213);
+    width: 650px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+span{
+    background-color: rgb(80, 80, 233);
 }
 
 
