@@ -34,4 +34,9 @@ span{
     background-color: rgb(80, 80, 233);
 }
 
+figure {
+    border: thick solid cornflowerblue;
+    width: 930px;
+}
+
 
