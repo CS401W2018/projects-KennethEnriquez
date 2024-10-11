@@ -7,14 +7,31 @@ header {
     background-color: aquamarine;
 }
 
-nav {
-    width: 200px;
+nav ul {
+    list-style-type: none;
+    padding: 0;
 }
+
+nav li{
+    display: inline;
+}
+
+nav a {
+    display: block;
+    background-color: rgb(54, 84, 114);
+    color: aliceblue;
+    border-bottom: thin solid white;
+    padding: 10px 20px;
+    float: left;
+    margin-left: 10px;
+}
+
 #treepic {
     width: 491px;
     border: thin solid rgb(40, 40, 90);
     float: right;
 }
+
 .end {
     clear: both;
 }
