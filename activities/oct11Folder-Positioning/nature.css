@@ -29,7 +29,6 @@ nav a {
 #treepic {
     width: 491px;
     border: thin solid rgb(40, 40, 90);
-    position: relative;
     float: right;
 }
 
