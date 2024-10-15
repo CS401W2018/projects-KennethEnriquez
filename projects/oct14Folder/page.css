@@ -1,6 +1,8 @@
 body {
-    background-image: url(green-background.jpg);
+    background-image: url(background.png);
     color: rgb(210, 210, 179);
+    line-height: 2;
+    font-weight: 300;
 }
 header {
     background-color: rgb(88, 142, 124);
@@ -10,12 +12,15 @@ header {
     border-radius: 10px;
     margin-bottom: 0;
     padding: 20px;
+    box-shadow: inset 5px 5px 15px;
+    font-size: larger;
 }
 
 #kicks {
     width: 500px;
     border: thick solid rgb(49, 49, 90);
     float: left;
+    height: 400px;
 }
 
 nav a:hover {
@@ -24,6 +29,7 @@ nav a:hover {
 
 nav li{
     display: inline;
+    height: auto;
 }
 
 nav a {
@@ -33,16 +39,20 @@ nav a {
     padding: 10px 20px;
     margin: 50px;
     border-radius: 10px;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 5);
+    text-transform: uppercase;
 }
 nav {
-    width: 1000px;
-    margin: 50px
+    max-width: 1000px;
+    margin: 50px;
+    
 }
 
 #wrapper {
     background-color: white;
     border-radius: 20px;
-    max-width: 1290px;
+    max-width: 1045px;
+    margin: auto;
 }
 
 main {
@@ -54,3 +64,6 @@ main {
     clear: both;
 }
 
+.wow {
+    font-style: oblique;
+} 
