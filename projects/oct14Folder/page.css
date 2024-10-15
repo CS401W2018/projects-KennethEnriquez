@@ -68,4 +68,8 @@ main {
 .wow {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: oblique;
+   background-position: right;
+   background-image: url(jordan.jpg); 
+   background-repeat: no-repeat;
+   height: 80px;
 } 
