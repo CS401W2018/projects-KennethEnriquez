@@ -1,0 +1,58 @@
+body {
+    background-image: url(background.png);
+    color: rgb(210, 210, 179);
+    line-height: 2;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: rgb(88, 142, 124);
+    width: 700px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 0;
+    padding: 20px;
+    box-shadow: inset 5px 5px 15px;
+    font-size: larger;
+}
+
+
+nav a:hover {
+    background-color: rgb(92, 104, 69);
+}
+
+nav a {
+    background-color: rgb(54, 84, 114);
+    width: auto;
+    color: aliceblue;
+    padding: 10px 20px;
+    margin: 50px;
+    border-radius: 10px;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 5);
+    text-transform: uppercase;
+}
+
+
+#wrap {
+    background-color: white;
+    border-radius: 20px;
+    max-width: 1045px;
+    margin: auto;
+}
+
+main {
+    color: rgb(92, 104, 69);
+    font-size: large;
+}
+
+
+
+.sheesh {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+   background-position: right;
+   background-image: url(jordan.jpg); 
+   background-repeat: no-repeat;
+   height: 80px;
+} 
