@@ -3,6 +3,7 @@ body {
     color: rgb(210, 210, 179);
     line-height: 2;
     font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header {
     background-color: rgb(88, 142, 124);
@@ -65,5 +66,6 @@ main {
 }
 
 .wow {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: oblique;
 } 
