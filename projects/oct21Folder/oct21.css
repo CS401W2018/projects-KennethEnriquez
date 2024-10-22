@@ -1,0 +1,58 @@
+body {
+    background-image: url(background.jpg);
+    background-color: rgba(255, 255, 255, 0.2);
+    background-blend-mode: overlay;
+}
+
+header {
+    background-color: rgb(155, 168, 130);
+    width: 700px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 0;
+    font-size: larger;
+}
+
+.container {
+    width: 200px;
+    border: thick solid rgb(49, 49, 90);
+    height: 250px;
+}
+
+.item {
+
+}
+
+nav a {
+    background-color: rgb(54, 84, 114);
+    color: aliceblue;
+    padding: 10px 30px;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+.contain {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+nav a:hover {
+    background-color: rgb(155, 168, 130);
+}
+
+.foot {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 20px); 
+    
+}
+
+.foots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(54, 84, 114);
+    color: aliceblue;
+}
