@@ -14,14 +14,11 @@ header {
     font-size: larger;
 }
 
-.parent1 {
-    padding: 20px;
-}
-
-.parent2 {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 100px;
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: wrap;
+    gap: 50px;
 }
 .container {
     width: 300px;
@@ -32,11 +29,17 @@ header {
 }
 
 .info {
-    display: flex;
-    flex-flow: row wrap;
+    display:grid;
+    flex-flow: row;
     width: 200px;
     padding: 10px;
     background-color: rgb(155, 168, 130);
+    border-radius: 10px;
+}
+
+.wow {
+    display: flex;
+    padding: 20px;
 }
 
 nav a {
