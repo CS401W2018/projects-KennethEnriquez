@@ -17,7 +17,7 @@ header {
 main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: wrap;
+    justify-content: center;
     gap: 50px;
 }
 .container {
@@ -26,6 +26,7 @@ main {
     border: 5px solid rgb(155, 168, 130);
     box-shadow: 20px 10px rgba(0, 0, 0, 0.1);
     background-color: rgb(197, 79, 79);
+    
 }
 
 .info {
@@ -35,6 +36,7 @@ main {
     padding: 10px;
     background-color: rgb(155, 168, 130);
     border-radius: 10px;
+
 }
 
 .wow {
