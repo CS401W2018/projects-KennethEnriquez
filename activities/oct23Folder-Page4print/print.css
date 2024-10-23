@@ -11,9 +11,7 @@ header h1 {
 }
 
 nav {
-    background-color: blueviolet;
-    display: flex;
-    justify-content: space-around;
+    display: none;
 }
 
 nav a {
