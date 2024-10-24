@@ -11,7 +11,7 @@ header h1 {
 }
 
 nav {
-    background-color: blueviolet;
+    background-color: rgb(242, 208, 159);
     display: flex;
     justify-content: space-around;
 }
@@ -19,7 +19,7 @@ nav {
 nav a {
     display: block;
     padding: 10px 5px;
-    color: aqua;
+    color: rgb(59, 197, 197);
     text-decoration: none;
 }
 
