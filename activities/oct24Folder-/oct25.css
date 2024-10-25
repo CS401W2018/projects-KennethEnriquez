@@ -41,3 +41,29 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
 }
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: rgb(240, 150, 183);
+    }
+    
+    nav {
+        flex-direction: column;
+    }
+    
+    nav a {
+        border-bottom: thin solid white;
+        padding-left: 50px;
+    }
+    .card {
+        width: 100px;
+        margin: 10px;
+    }
+    .main-card{
+        order: -1;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}

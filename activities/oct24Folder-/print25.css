@@ -35,6 +35,11 @@ nav a:hover {
 .jordan3 img {
     width: 100%;
 }
+/*.row {
+    display: block;
+    justify-content: space-between;
+}*/
+
 .row {
     display: flex;
     justify-content: space-between;
