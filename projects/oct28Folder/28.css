@@ -39,14 +39,70 @@ nav a:hover {
     justify-content: space-between;
 }
 
-.secondD {
-    width: 250px;
+article {
+    width: 30%;
     border: thin solid black;
     box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.5);
     margin: 30px;
     background-color: rgb(174, 250, 250);
 }
 
-.secondD img {
+article img {
     width: 100%;
+}
+
+.main1 {
+    display: flex;
+}
+
+aside {
+    width: 20%;
+}
+
+aside figure {
+    width: 70%;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+}
+
+aside img {
+    width: 100%;
+}
+
+.contain {
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+    
+    .main1 {
+        flex-direction: column;
+    }
+
+    .contain {
+        flex-direction: column;
+    }
+
+    main {
+        order: -1;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    article {
+        width: 100%;
+        margin: 30px auto;
+    }
+}
+
+@media only print {
+    nav {
+        display: none;
+    }
 }
