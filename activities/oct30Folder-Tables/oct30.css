@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.schedule {
+    margin: 5px auto;
+    border: thin solid black;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+.schedule td, .schedule th {
+   border: thin solid black;
+    padding: 5px;
+}
+
+.schedule thead {
+    background-color: blue;
+    color: white;
+}
+
+.schedule tbody tr{
+    background-color: rgb(238, 209, 209);
+}
+
+.schedule tfoot {
+    background-color: blue;
+    color: white;
+}
+
