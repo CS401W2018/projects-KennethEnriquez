@@ -5,8 +5,10 @@ body {
 .schedule {
     margin: 5px auto;
     border: thin solid black;
-    border-spacing: 0px;
-    border-collapse: collapse;
+    /*border-spacing: 0px;
+    border-collapse: collapse;*/
+    margin: 5px auto;
+    border-spacing: 20px;
 }
 
 .schedule td, .schedule th {
@@ -27,4 +29,3 @@ body {
     background-color: blue;
     color: white;
 }
-
