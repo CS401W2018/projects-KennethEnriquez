@@ -1,0 +1,87 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(byu.jpg);
+}
+
+header {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 10px;
+    font-size: xx-large;
+}
+
+header h1 {
+    margin: 3px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+nav a {
+    background-color: rgb(22, 101, 181);
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    margin: 20px;
+    border-radius: 10px; 
+    text-decoration: none;
+    box-shadow: -5px -5px rgba(0, 0, 0, .5);
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.wow {
+    display: flex;
+    width: 100%;
+}
+
+aside {
+    width: 25%;
+    background-color: white;
+    order: 2;
+    height: 600px;
+    box-shadow: 5px 5px;
+    font-size: x-large;
+}
+
+main {
+    width: 95%;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+}
+
+.schedule {
+    margin: 5px auto;
+    border-spacing: 10px;
+}
+
+.schedule td, .schedule th {
+   border: thick solid black;
+    padding: 20px;
+}
+
+.schedule thead {
+    background-color: rgb(0, 0, 73);
+    color: white;
+}
+
+.schedule tbody tr{
+    background-color: rgb(255, 255, 255);
+}
+
+th {
+    font-size: 50px;
+    background-color: rgb(0, 0, 73);
+    color: white;
+}
+
+td {
+    font-size: xx-large;
+    text-align: center;
+}
