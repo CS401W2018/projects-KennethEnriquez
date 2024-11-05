@@ -85,3 +85,9 @@ td {
     font-size: x-large;
     text-align: center;
 }
+
+caption {
+    background-color: white;
+    border-radius: 10px;
+    font-size: x-large;
+}
