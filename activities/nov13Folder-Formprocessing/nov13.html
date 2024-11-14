@@ -71,23 +71,27 @@
         </form>
         <h2>Questions:</h2>
         <h3>1. What is JavaScript? How did it get its name?</h3>
-        <p>- Another programming language.</p>
+        <p>- Another programming language. The name is from Sun Microsystems company.</p>
         <h3>2. What are the two ways you can run JavaScript?</h3>
-        <p>- answer</p>
+        <p>- Inside the installed browser and node.js</p>
         <h3>3. What was the most popular front-end js library?</h3>
-        <p>- answer</p>
+        <p>- jQuery</p>
         <h3>4. What is the most popular front-end js library today?</h3>
-        <p>- answer</p>
+        <p>- React</p>
    </main>
    <hr>
    <footer>
         &copy; Kenneth Enriquez 2024
    </footer>
    <script>
-    document.getElementById('myForm') .addEventListener('submit', function(event) {
-        event.preventDefault();
-        alert("Hello");
+    document.getElementById('myForm').addEventListener('submit' , function(event){
+         event.preventDefault();
+         const first = document.getElementById('firstName').value;
+         const last = document.getElementById('lastName').value;
+         console.log(first);
+         console.log(last);
+         alert("Form Submitted");
     })
-   </script>
+</script>
 </body>
 </html>
