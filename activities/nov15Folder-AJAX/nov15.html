@@ -79,31 +79,6 @@
    <footer>
         &copy; Kenneth Enriquez 2024
    </footer>
-   <script>
-    document.getElementById('myForm').addEventListener('submit' , function(event){
-         event.preventDefault();
-         const first = document.getElementById('firstName').value;
-         const last = document.getElementById('lastName').value;
-         const age = document.getElementById('age').value;
-         if (!firstname || !lastname) {
-            alert('First Name and Last Name cannot be blank.');
-            return;
-         }
-
-         /*console.log(first);
-         console.log(last);
-         alert("Form Submitted");*/
-         const formData = {
-            firstname: firstName,
-            lastName: lastName,
-            password: document.getElementById('password').value,
-            state: document.getElementById('state').value
-         };
-
-         alert("Success!")
-         console.log(formData);
-    });
-    
-</script>
+   <script src="form.js"></script>
 </body>
 </html>
