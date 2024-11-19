@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="nov18.css">
+</head>
+<body>
+   <header>
+        <h1 id="message">Sign up for a chance to win a Shimano Groupset</h1>
+   </header> 
+   <br> 
+   <main>
+        <form action="processing.html" method="post" id="myForm">
+            <fieldset>
+            <legend>Sign Up</legend>
+            <div class="form-row">
+                <label for="fname">First Name:</label> 
+                <input type="text" name="first" id="fname">
+            </div>
+
+            <div class="form-row">
+              <label for="lname">Last Name:</label> 
+              <input type="text" name="last" id="lname" >
+            </div>
+
+            <div class="form-row">
+                Gender:
+                <label><input type="radio" name = "class" value="Male" required> Male </label>
+                <label><input type="radio" name = "class" value="Male" required> Female </label>
+            </div>
+
+            <div class="form-row">
+                <label for="pass">Password:</label> 
+                <input type="password" name="pass" id="pass">
+            </div>
+
+            <div class="form-row">
+                <label for="mail">Email:</label> 
+                <input type="email" name="ml" id="mail">
+            </div>
+
+            <div class="form-row">
+                <label for="Phone">Phone Number:</label> 
+                <input type="tel" name="telephone" id="Phone" placeholder="808-647-5731">
+            </div>
+
+            <div class="form-row">
+                <label for="add">Address:</label> 
+                <input type="text" name="address" id="add" required>
+            </div>
+
+            <div class="form-row">
+                <label for="date">Date:</label> 
+                <input type="date" id="date" name="date" required>
+           </div>
+            </fieldset>
+
+
+
+            <fieldset>
+                <legend>Why You?</legend>
+                <div>
+                    <label for="comment">Explain why you should be the one to win the prize:</label> 
+                    <textarea name="comments" id="comment"></textarea>
+                </div>
+    
+                <div class = "form-row">
+                    <label for="DT">Drive Train</label>
+                    <select name="Drive Train" id="DT">
+                        <option value="blank">Options</option>
+                        <option value="105">105</option>
+                        <option value="Ult">Ultegra</option>
+                        <option value="Da">Dura-Ace</option>
+                        <option value="Da2">Dura-Ace2</option>
+                        
+                    </select>
+                </div>
+                <div class="form-row">   
+                    Mode of item aquirement: 
+                    <label><input type="radio" name = "mode" value="Delivery" required>Delivery</label>
+                    <label><input type="radio" name = "mode" value="Pickup">Pickup </label>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" id="uptodate">
+                    <label>Notify me for updates</label>
+                </div>
+    
+                <div class="form-row">
+                    <label for="Press">Click here to</label>
+                    <input type="submit" id="Press">
+                </div>
+            </fieldset>
+
+
+
+            <fieldset>
+                <legend>Terms and Conditions</legend>
+                <label><input type="checkbox" name = "agree" id="cheker">By clicking the button, You agree to our terms and conditions. </label>
+
+            </fieldset>
+        </form>
+   </main>
+   <hr>
+   <footer>
+        &copy; Kenneth Enriquez 2024
+   </footer>
+   <script src="form.js"></script>
+</body>
+</html>

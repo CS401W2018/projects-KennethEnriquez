@@ -26,6 +26,6 @@ document.getElementById('myForm').addEventListener('submit' , function (event){
             //alert('Form submitted successfully.');
         }   else if (xhr.readyState === 4) { 
             alert ('Error submitting form.');
-        }}}
-    
-    );
+        }
+    }
+});
