@@ -1,0 +1,75 @@
+/* Home Page */
+
+header {
+    font-style: italic;
+    font-size: larger;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(255, 145, 0);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    background-color: rgb(194, 120, 16);
+    color: aliceblue;
+    padding: 10px 30px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: large;
+    
+}
+
+.contain {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+nav a:hover {
+    background-color: rgb(238, 79, 11);
+}
+
+.current{
+    color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 700px){
+    .contain{
+        flex-direction: column;
+    }
+    .contain{
+        text-align: left;
+    }
+}
+
+/* 1st Page */
+
+
+/* 2nd Page */
+
+.wow {
+    margin: 5px auto;
+    border: thin solid black;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+.wow td, .wow th {
+   border: thick solid black;
+    padding: 30px;
+}
+
+.wow thead {
+    background-color: rgb(233, 139, 7);
+    color: white;
+}
+
+.wow tbody tr{
+    background-color: rgb(249, 249, 249);
+}
+
+
