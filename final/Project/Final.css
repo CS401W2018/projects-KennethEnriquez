@@ -36,6 +36,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 1400px;
     background-image: url(background.webp);
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .pic1 {
@@ -143,8 +145,17 @@ footer {
     -webkit-text-stroke: 3px black;
 }
 
-.wow tbody tr{
-    background-color: rgb(255, 255, 255, 0.1);
+.wow tbody td{
+    background-color: rgba(0, 40, 86, 0.3);
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    -webkit-text-stroke: 1px black;
+    font-weight: bolder;
+}
+
+.wow tbody th{
+    background-color: rgba(0, 40, 86, 0.9);
     text-align: center;
     color: white;
     font-size: x-large;
