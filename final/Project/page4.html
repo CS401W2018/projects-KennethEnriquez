@@ -10,14 +10,118 @@
     <header>
         <h1>Amy Henrichsen</h1>
     </header>
-    <nav>
-        <nav class="contain">
-            <a href="Final.html">Home Page</a>
-            <a href="page1.html">Components</a>
-            <a href="page2.html">Trails</a>
-            <a href="page3.html">MTB Types</a>
-            <a href="page4.html" class="current">Shop</a>
-        </nav>
+    <nav class="contain">
+        <a href="Final.html">Home Page</a>
+        <a href="page1.html">Components</a>
+        <a href="page2.html">Trails</a>
+        <a href="page3.html">MTB Types</a>
+        <a href="page4.html" class="current">Shop</a>
     </nav>
+    <main>
+        <form action="processing.html" method="post" id="MTB">
+            <fieldset>
+            <legend>Choose your Bike</legend>
+            <div class="mountain">
+                Gender:
+                <label><input type="radio" name = "class" value="bikes" required>Downhill</label>
+                <label><input type="radio" name = "class" value="bikes" required>Enduro</label>
+                <label><input type="radio" name = "class" value="bikes" required>Hard Tail</label>
+                <label><input type="radio" name = "class" value="bikes" required>Down Country</label>
+                <label><input type="radio" name = "class" value="bikes" required>Trail</label>
+                <label><input type="radio" name = "class" value="bikes" required>Cross Country</label>
+            </div>
+            </fieldset>
+
+            <fieldset>
+            <legend>Personal Information</legend>
+            <div class="mountain">
+                <label for="fname">First Name:</label> 
+                <input type="text" name="first" id="fname">
+            </div>
+
+            <div class="mountain">
+              <label for="lname">Last Name:</label> 
+              <input type="text" name="last" id="lname" >
+            </div>
+
+            <div class="mountain">
+                <label for="mail">Email:</label> 
+                <input type="email" name="ml" id="mail">
+            </div>
+
+            <div class="mountain">
+                <label for="Phone">Phone Number:</label> 
+                <input type="tel" name="telephone" id="Phone" placeholder="808-647-5731">
+            </div>
+            </fieldset>
+
+            <fieldset>
+            <legend>Address</legend>
+            <div class="mountain">
+                <label for="add1">Address line 1:</label>
+                <input type="text" name="ress1" id="add1">
+            </div>
+
+            <div class="mountain">
+                <label for="add2">Address line 2:</label>
+                <input type="text" name="ress2" id="add2">
+            </div>
+
+            <div class="mountain">
+                <label for="twn">town/City:</label>
+                <input type="text" name="ress2" id="twn">
+            </div>
+
+            <div class = "mountain">
+                <label for="state">State</label>
+                <select name="state" id="state">
+                    <option value="blank">choose</option>
+                    <option value="AL">Alabama</option>
+                    <option value="AK">Alaska</option>
+                    <option value="AZ">Arizona</option>
+                    <option value="AR">Arkansas</option>
+                    <option value="CA">California</option>
+                    <option value="CO">Colorado</option>
+                    <option value="CT">Connecticut</option>
+                    <option value="HI">Hawaii</option>
+                </select>
+            </div>
+            
+            <div class="mountain">
+                <label for="zip">Zip Code:</label>
+                <input type="text" name="ress2" id="zip">
+            </div>
+            </fieldset>
+
+            <fieldset>
+            <legend>Payment Method</legend>
+            <div class="form-row">
+                Payment Method
+                <label><input type="radio" name = "class" value="money" required> Debit Card</label>
+                <label><input type="radio" name = "class" value="money" required> Credit Card </label>
+            </div>
+
+            <div class="mountain">
+                <label for="cnum">Card Number:</label> 
+                <input type="text" name="cred" id="cnum">
+            </div>
+
+            <div class="mountain">
+                <label for="secur">CVV:</label> 
+                <input type="text" name="pass" id="secur">
+            </div>
+
+            <div class="mountain">
+                <label for="date">Expiration Date:</label> 
+                <input type="date" id="date" name="date">
+           </div>
+
+           <div class="mountain">
+                <label for="Press">Click here to palce order</label>
+                <input type="submit" id="Press">
+           </div>
+            </fieldset>
+        </form>
+    </main>
 </body>
 </html>
