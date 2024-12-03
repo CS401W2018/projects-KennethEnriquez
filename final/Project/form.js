@@ -71,7 +71,7 @@ document.getElementById('MTB').addEventListener('submit' , function (event){
         xhr.onreadystatechange = function () {
             if (xhr.readyState === 4 && xhr.status === 200){
                 const response = JSON.parse(xhr.response);
-                document .getElementById('message').innerHTML = response.message;
+                document .getElementById('thanks').innerHTML = response.message;
                 document.getElementById('MTB') .innerHTML = "";
             }   else if (xhr.readyState === 4) { 
                 alert ('Error submitting form.');
