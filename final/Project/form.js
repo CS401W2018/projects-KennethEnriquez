@@ -44,42 +44,23 @@ document.getElementById('MTB').addEventListener('submit' , function (event){
     const expire = document.getElementById('date').value;
 
 
-
-
-
-
-    
-
-    const updates = document.getElementById('uptodate').checked;
-    const TAC = document.getElementById('cheker').checked;
-
-    var sent = true;
-    if(first ==""){
-        alert("Please input your the right details")
-        sent = false; 
-    }
-    if(last ==""){
-        alert("Please input your the right details")
-        sent = false; 
-    }
-    
-    if (sent){
+   
         const formdata = {
             firstname: first,
             lastname: last,
-            sex: selectgen,
-            security: password,
             gmail: email,
             number: phone,
             location: address,
             location2: address2,
-            clock: date,
-            words: comm,
-            drive: gear,
-            part: item,
-            fed: parcel,
-            ups: updates,
-            terms:TAC,
+            where: City,
+            wherer: state,
+            zippy: zip,
+            cod: cnum,
+            pss: cvv,
+            exp: expire,
+            slctbk: selectbike,
+            slctsz: selectsize,
+            slctpy: selectpay,
         }
 
         console.log(formdata);
@@ -91,13 +72,13 @@ document.getElementById('MTB').addEventListener('submit' , function (event){
             if (xhr.readyState === 4 && xhr.status === 200){
                 const response = JSON.parse(xhr.response);
                 document .getElementById('message').innerHTML = response.message;
-                document.getElementById('myForm') .innerHTML = "";
+                document.getElementById('MTB') .innerHTML = "";
             }   else if (xhr.readyState === 4) { 
                 alert ('Error submitting form.');
             }
         }
         xhr.send(JSON.stringify(formdata));
 
-    }
+    
     
 });
