@@ -57,7 +57,7 @@ body {
 }
 
 nav a {
-    background-color: rgb(0, 0, 0, 0.5);
+    background-color: rgb(0, 0, 0, 0.8);
     color: aliceblue;
     padding: 10px 30px;
     margin: 20px;
@@ -95,6 +95,10 @@ footer {
 
 /* 1st Page */
 
+.design1 {
+    background-image: url(backpage1.avif);
+}
+
 .pic3 {
     width: 600px;
     height: auto;
@@ -126,6 +130,10 @@ footer {
 }
 
 /* 2nd Page */
+
+.design2 {
+    background-image: url(backpage2.avif);
+}
 
 .wow {
     margin: 5px auto;
@@ -169,7 +177,7 @@ span {
 }
 
 .p2h1 {
-    background-color: rgb(255, 255, 255, 0.3);
+    background-color: rgba(0, 40, 86, 0.7);
     border-radius: 10px;
     padding: 15px;
     text-align: center;
@@ -179,6 +187,10 @@ span {
 }
 
 /* 3nd Page */
+
+.design3 {
+    background-image: url(backpage3.avif);
+}
 
 .container {
     width: 600px;
@@ -226,6 +238,10 @@ span {
 
 /* 4th Page */
 
+.design4 {
+    background-image: url(backpage4.avif);
+}
+
 .mountain{
     display: flex;
     gap: 20px; 
@@ -270,6 +286,10 @@ input[type="submit"]{
 }
 
 /* 5th Page */
+
+.design5 {
+    background-image: url(backpage5.avif);
+}
 
 .vids {
     margin-right: 100px;

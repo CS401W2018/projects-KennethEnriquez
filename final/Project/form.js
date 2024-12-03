@@ -2,19 +2,19 @@ document.getElementById('MTB').addEventListener('submit' , function (event){
     event.preventDefault();
 
     const Mtb = document.getElementsByName('class');
-    var selectgen = null;
+    var selectbike = null;
     for (var i = 0; i < Mtb.length; i++){
         if(Mtb[i].checked){
-            selectMtb = Mtb[i].value;
+            selectbike = Mtb[i].value;
             break
         }
     }
 
     const Size = document.getElementsByName('class1');
-    var selectgen = null;
+    var selectsize = null;
     for (var i = 0; i < Size.length; i++){
         if(Size[i].checked){
-            selectSize = Size[i].value;
+            selectsize = Size[i].value;
             break
         }
     }
@@ -23,25 +23,32 @@ document.getElementById('MTB').addEventListener('submit' , function (event){
     const last = document.getElementById('lname').value;
     const email = document.getElementById('mail').value;
     const phone = document.getElementById('Phone').value;
+    const address = document.getElementById('add1').value;
+    const address2 = document.getElementById('add2').value;
+    const City = document.getElementById('twn').value;
+    const state = document.getElementById('state').value;
+    const zip = document.getElementById('zip').value;
+
+
+    const payment = document.getElementsByName('class2');
+    var selectpay = null;
+    for (var i = 0; i < payment.length; i++){
+        if(Size[i].checked){
+            selectpay = Size[i].value;
+            break
+        }
+    }
+
+    const cnum = document.getElementById('cnum').value;
+    const cvv = document.getElementById('secur').value;
+    const expire = document.getElementById('date').value;
+
+
 
 
 
 
     
-    const address = document.getElementById('add').value;
-    const date = document.getElementById('date').value;
-    const comm = document.getElementById('comment').value;
-    const gear = document.getElementById('DT').value;
-    const item = document.getElementById('DT').value;
-
-    const acquire = document.getElementsByName('mode');
-    var parcel = null;
-    for (var i = 0; i < acquire.length; i++){
-        if(acquire[i].checked){
-            parcel = acquire[i].value;
-            break
-        }
-    }
 
     const updates = document.getElementById('uptodate').checked;
     const TAC = document.getElementById('cheker').checked;
@@ -65,6 +72,7 @@ document.getElementById('MTB').addEventListener('submit' , function (event){
             gmail: email,
             number: phone,
             location: address,
+            location2: address2,
             clock: date,
             words: comm,
             drive: gear,
