@@ -321,3 +321,9 @@ input[type="submit"]{
     font-size:x-large;
     color: rgb(0, 0, 0);
 }
+
+.size {
+    width: 500px;
+    height: auto;
+    margin-left: 45px;
+}
